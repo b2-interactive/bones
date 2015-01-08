@@ -83,13 +83,13 @@ To install on a windows machine you are going to need to make sure you install a
 
 3.  Another thing that you will want to install is Git. There are two options for this (I would suggest the first one), they are:
 
-        1.  This first option is by downloading GitHub for Windows. This will install GitHub's GUI and the command line version of Git as well.
-            To get this download go to [https://windows.github.com/](https://windows.github.com/)and click download. Once the download is finished install the application.
-            Now depending on what is easier to you, you can use the GUI or the Git Power Shell but we will be using the GUI for the purposes of this walk through.
+      *  This first option is by downloading GitHub for Windows. This will install GitHub's GUI and the command line version of Git as well.
+          To get this download go to [https://windows.github.com/](https://windows.github.com/)and click download. Once the download is finished install the application.
+          Now depending on what is easier to you, you can use the GUI or the Git Power Shell but we will be using the GUI for the purposes of this walk through.
 
-        2.  Second route is using Git for Windows by going to[http://git-scm.com/download/win](http://git-scm.com/download/win)and click the download button. Once the download is complete, run the application file.
-            Going through the process you will want to check the Git BASH Here and the Git GUI Here options under the Select Components Menu.
-            Also, in the Adjusting Your PATH Environment Menu choose the Use Git From Windows Command Prompt option. Leave everything else as is.
+      *  Second route is using Git for Windows by going to[http://git-scm.com/download/win](http://git-scm.com/download/win)and click the download button. Once the download is complete, run the application file.
+          Going through the process you will want to check the Git BASH Here and the Git GUI Here options under the Select Components Menu.
+          Also, in the Adjusting Your PATH Environment Menu choose the Use Git From Windows Command Prompt option. Leave everything else as is.
 
 4.  Next thing that you will want to install is Node.js. To do this navigate to [http://nodejs.org](http://nodejs.org)and click the download button. Once the download is complete, run the application file.
     Go through the process and hit install. Once installed open up a new Command Prompt and type:
