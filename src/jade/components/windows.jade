@@ -1,0 +1,69 @@
+h2 Installing on Windows Machines
+p To install on a windows machine you are going to need to make sure you install a few different things:
+ol
+	li 
+		p
+			| First thing you need to make sure you have installed is Ruby. Go to 
+			a(href="http://rubyinstaller.org/downloads/") http://rubyinstaller.org/downloads/
+			| and download the Ruby 2.1.5 installer, either 64-bit or 32-bit depeneding on your machine.
+			| Once the download is complete run the application file and make sure it adds it to your PATH.
+			| When it is done installing, open your Command Prompt and type:
+		code ruby -v
+		p
+			| If this doesn't return an Error and you get a version number it is installed correctly.
+	li 
+		p
+			| Second thing that you will want to install is SASS. To do this open up your Command Prompt and type:
+		code gem source -a http://rubygems.org
+		p
+			| This will bring up a message asking if you want to add this insecure source so type y and hit enter.
+			| This is just a work around for an SSL error you would normally recieve using Ruby 2.1.5.
+			| Next, you want to install SASS by typing:
+		code gem install -g sass
+		p
+			| This may take a minute or two but once it is done type:
+		code sass -v
+		p
+			| If this doesn't return an Error and you get a version number it is installed correctly.
+	li 
+		p
+			| Another thing that you will want to install is Git. There are two options for this (I would suggest the first one), they are:
+			ol
+				li
+					p
+						| This first option is by downloading GitHub for Windows. This will install GitHub's GUI and the command line version of Git as well.
+						| To get this download go to 
+						a(href="https://windows.github.com/") https://windows.github.com/
+						| and click download. Once the download is finished install the application.
+						| Now depending on what is easier to you, you can use the GUI or the Git Power Shell but we will be using the GUI for the purposes of this walk through.
+				li
+					p
+						| Second route is using Git for Windows by going to
+						a(href="http://git-scm.com/download/win") http://git-scm.com/download/win
+						| and click the download button. Once the download is complete, run the application file.
+						| Going through the process you will want to check the Git BASH Here and the Git GUI Here options under the Select Components Menu.
+						| Also, in the Adjusting Your PATH Environment Menu choose the Use Git From Windows Command Prompt option. Leave everything else as is.
+						| After it is finished installing open up a new Command Prompt and type:
+					code node -v
+	li 
+		p
+			| Next thing that you will want to install is Node.js. To do this navigate to 
+			a(href="http://nodejs.org") http://nodejs.org
+			| and click the download button. Once the download is complete, run the application file.
+			| Go through the process and hit install. Once installed open up a new Command Prompt and type:
+		code node -v
+		p
+			| If this doesn't return an error and you get a version number then Node is installed correctly.
+			| This will also install NPM which is nodes package manager and you will be using this to install
+			| a few more things.
+	li 
+		p
+			| The last prerequisite is the grunt-cli and is very simple to install.
+			| All you have to do is open your Command Prompt and type:
+		code npm install -g grunt-cli
+		p
+			| Once it is done and you have no errors you are good to go.
+			| Now, move down to the section "Git Repository and Set Up".
+
+
+

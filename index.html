@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>B2 Interactives Bones</title>
+    <link href="public/vendor/fontawesome/font-awesome.min.css" rel="stylesheet">
+    <link href="public/css/app.min.css" rel="stylesheet">
+    <script src="public/vendor/jquery/jquery-1.11.1.min.js"></script>
+    <script src="public/vendor/jquery/jquery.mobile.custom.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" role="main">
+      <header is="main-header">
+        <h1>B2 Interactives Bones</h1>
+      </header>
+      <section class="intro">
+        <h2>Intro</h2>
+        <p>This is B2 Interactives Bones project.  It is a skeleton for the start of a project that uses:</p>
+        <ul>
+          <li> 
+            <h3>Node</h3>
+            <p>Node is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p><a href="http://nodejs.com">http://nodejs.org</a>
+          </li>
+          <li> 
+            <h3>Grunt</h3>
+            <p>Grunt is a Javascript task runner that automates a lot of the compiling processes.</p><a href="http://gruntjs.com">http://gruntjs.com</a>
+          </li>
+          <li> 
+            <h3>Bower</h3>
+            <p>Power is a front-end package manager. It is used for installing things such as jquery, angular, bootstrap, etc.</p><a href="http://bower.io">http://bower.io</a>
+          </li>
+          <li> 
+            <h3>SASS</h3>
+            <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world. It is a css pre processor that gives you a lot more options, such as variables, mixins, functions, etc.</p>
+            <p>Language Reference:<br><a href="http://sass-lang.com">http://sass-lang.com</a></p>
+            <p>Grunt Plugin Reference:<br><a href="https://github.com/gruntjs/grunt-contrib-sass">https://github.com/gruntjs/grunt-contrib-sass</a></p>
+          </li>
+          <li> 
+            <h3>Grunt-Contrib-Imagemin</h3>
+            <p>This is grunts image minimizer that has plenty of different options for you.</p><a href="https://github.com/gruntjs/grunt-contrib-imagemin">https://github.com/gruntjs/grunt-contrib-imagemin</a>
+          </li>
+          <li> 
+            <h3>Grunt-Contrib-JSHint</h3>
+            <p>JSHint is a tool that helps to detect errors and potential problems in your JavaScript code.</p><a href="https://github.com/gruntjs/grunt-contrib-jshint">https://github.com/gruntjs/grunt-contrib-jshint</a>
+          </li>
+          <li> 
+            <h3>Grunt-Contrib-Uglify</h3>
+            <p>This grunt plugin is used for minifying your Javascript files.</p><a href="https://github.com/gruntjs/grunt-contrib-uglify">https://github.com/gruntjs/grunt-contrib-uglify</a>
+          </li>
+          <li> 
+            <h3>Jade</h3>
+            <p>Jade is one of many Node template engines. It uses a tabular syntax and decrease the amount of code needed.</p>
+            <p>Language Reference:<br><a href="http://jade-lang.com">http://jade-lang.com</a></p>
+            <p>Grunt Plugin Reference:<br><a href="https://github.com/gruntjs/grunt-contrib-jade">https://github.com/gruntjs/grunt-contrib-jade</a></p>
+          </li>
+          <li> 
+            <h3>Grunt-Contrib-Watch</h3>
+            <p>This grunt plugin is used for watching all of your process and running them as you save files.</p><a href="https://github.com/gruntjs/grunt-contrib-watch">https://github.com/gruntjs/grunt-contrib-watch</a>
+          </li>
+        </ul>
+      </section>
+      <section class="install"></section>
+      <section class="windows">
+        <h2>Installing on Windows Machines</h2>
+        <p>To install on a windows machine you are going to need to make sure you install a few different things:</p>
+        <ol>
+          <li> 
+            <p>First thing you need to make sure you have installed is Ruby. Go to <a href="http://rubyinstaller.org/downloads/">http://rubyinstaller.org/downloads/</a>and download the Ruby 2.1.5 installer, either 64-bit or 32-bit depeneding on your machine.
+              Once the download is complete run the application file and make sure it adds it to your PATH.
+              When it is done installing, open your Command Prompt and type:
+            </p><code>ruby -v</code>
+            <p>If this doesn't return an Error and you get a version number it is installed correctly.</p>
+          </li>
+          <li> 
+            <p>Second thing that you will want to install is SASS. To do this open up your Command Prompt and type:</p><code>gem source -a http://rubygems.org</code>
+            <p>
+              This will bring up a message asking if you want to add this insecure source so type y and hit enter.
+              This is just a work around for an SSL error you would normally recieve using Ruby 2.1.5.
+              Next, you want to install SASS by typing:
+            </p><code>gem install -g sass</code>
+            <p>This may take a minute or two but once it is done type:</p><code>sass -v</code>
+            <p>If this doesn't return an Error and you get a version number it is installed correctly.</p>
+          </li>
+          <li> 
+            <p>Another thing that you will want to install is Git. There are two options for this (I would suggest the first one), they are:
+              <ol>
+                <li>
+                  <p>
+                    This first option is by downloading GitHub for Windows. This will install GitHub's GUI and the command line version of Git as well.
+                    To get this download go to <a href="https://windows.github.com/">https://windows.github.com/</a>and click download. Once the download is finished install the application.
+                    Now depending on what is easier to you, you can use the GUI or the Git Power Shell but we will be using the GUI for the purposes of this walk through.
+                  </p>
+                </li>
+                <li>
+                  <p>Second route is using Git for Windows by going to<a href="http://git-scm.com/download/win">http://git-scm.com/download/win</a>and click the download button. Once the download is complete, run the application file.
+                    Going through the process you will want to check the Git BASH Here and the Git GUI Here options under the Select Components Menu.
+                    Also, in the Adjusting Your PATH Environment Menu choose the Use Git From Windows Command Prompt option. Leave everything else as is.
+                    After it is finished installing open up a new Command Prompt and type:
+                  </p><code>node -v</code>
+                </li>
+              </ol>
+            </p>
+          </li>
+          <li> 
+            <p>Next thing that you will want to install is Node.js. To do this navigate to <a href="http://nodejs.org">http://nodejs.org</a>and click the download button. Once the download is complete, run the application file.
+              Go through the process and hit install. Once installed open up a new Command Prompt and type:
+            </p><code>node -v</code>
+            <p>
+              If this doesn't return an error and you get a version number then Node is installed correctly.
+              This will also install NPM which is nodes package manager and you will be using this to install
+              a few more things.
+            </p>
+          </li>
+          <li> 
+            <p>
+              The last prerequisite is the grunt-cli and is very simple to install.
+              All you have to do is open your Command Prompt and type:
+            </p><code>npm install -g grunt-cli</code>
+            <p>
+              Once it is done and you have no errors you are good to go.
+              Now, move down to the section "Git Repository and Set Up".
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section class="mac">
+        <h2>Installing on Mac Machines</h2>
+        <p>To install on a Mac machine there are a few things you are going to need to install:</p>
+        <ol>
+          <li> 
+            <p>First thing that you will want to install is SASS. Since Ruby comes installed on Mac machines all you have to do this open up your Terminal and type:</p><code>gem install -g sass</code>
+            <p>This may take a minute or two but once it is done type:</p><code>sass -v</code>
+            <p>If this doesn't return an Error and you get a version number it is installed correctly.</p>
+          </li>
+          <li> 
+            <p>Next thing that you will want to install is Node.js. To do this navigate to <a href="http://nodejs.org">http://nodejs.org</a>and click the download button. Once the download is complete, run the application file.
+              Go through the process and hit install. Once installed open up your Terminal and type:
+            </p><code>node -v</code>
+            <p>
+              If this doesn't return an error and you get a version number then Node is installed correctly.
+              This will also install NPM which is nodes package manager and you will be using this to install
+              a few more things.
+            </p>
+          </li>
+          <li> 
+            <p>We also need to make sure Git is installed on the machine by opening up Terminal and typing</p><code>git</code>
+            <p>If it is not installed already it will open up a prompt that will walk you through the process.</p>
+          </li>
+          <li> 
+            <p>
+              The last prerequisite is the grunt-cli and is very simple to install.
+              All you have to do is open your Terminal and type:
+            </p><code>npm install -g grunt-cli</code>
+            <p>
+              Once it is done and you have no errors you are good to go.
+              Now, move down to the section "Git Repository and Set Up".
+            </p>
+          </li>
+        </ol>
+      </section>
+      <footer is="main-footer">
+        <div class="left">MIT License</div>
+        <div class="right">Developed by <a href="http://www.b2interactive.com">B2 Interactive</a></div>
+      </footer>
+    </div>
+    <script src="public/js/app.min.js"></script>
+  </body>
+</html>

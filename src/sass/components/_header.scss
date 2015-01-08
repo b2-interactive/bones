@@ -1,0 +1,51 @@
+header{
+	&[is="main-header"]{
+		border-top: 3px solid $primary-color;
+		background: $secondary-background-color;
+		white-space:nowrap;
+
+		.left{
+			display:inline-block;
+			@include grid(6);
+			vertical-align:top;
+
+			img{
+				margin:10px;
+			}
+		}
+
+		.right{
+			display:inline-block;
+			@include grid(6);
+			vertical-align:top;
+			margin-left:-4px;
+			
+			.links{
+				float:right;
+				margin:10px;
+
+				.lang{
+					margin-bottom:5px;
+					text-align:right;
+
+					a{
+						color:$tertiary-color;
+						text-decoration:underline;
+						font-size:1.5rem;
+					}
+				}
+
+				.call{
+					i{
+						margin-right:10px;
+						font-size:20px;
+					}
+
+					a{
+						font-size:1.5rem;
+					}
+				}
+			}
+		}
+	}
+}

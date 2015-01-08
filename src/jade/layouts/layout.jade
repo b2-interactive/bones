@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+	head
+		block title
+			title B2 Interactive - Bones
+		link(href="public/vendor/fontawesome/font-awesome.min.css",rel="stylesheet")
+		link(href="public/css/app.min.css",rel="stylesheet")
+		script(src="public/vendor/jquery/jquery-1.11.1.min.js")
+		script(src="public/vendor/jquery/jquery.mobile.custom.min.js")
+	body
+		div(id="wrapper",role="main")
+			header(is="main-header")
+				h1 B2 Interactives Bones
+			block content
+			footer(is="main-footer")
+				div.left MIT License
+				div.right Developed by 
+					a(href="http://www.b2interactive.com") B2 Interactive
+		script(src="public/js/app.min.js")
+

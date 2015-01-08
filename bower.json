@@ -1,0 +1,21 @@
+{
+  "name": "b2i-bones",
+  "version": "1.1.0",
+  "homepage": "http://www.b2interactive.com",
+  "authors": [
+    "B2 Interactive"
+  ],
+  "description": "B2 Interactive Development Skeleton",
+  "main": "sample.html",
+  "keywords": [
+    "development skeleton",
+    "sass",
+    "jade"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

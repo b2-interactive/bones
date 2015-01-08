@@ -1,0 +1,79 @@
+html{
+	font-size: $base-font-size;
+	font-family: $base-font-family;
+	line-height:$base-line-height;
+	color: $base-font-color;
+}
+
+body{
+	background-color:$primary-background-color;
+}
+
+div[role="main"]{
+	width: $container-width;
+}
+
+h1{
+	font-family: $h1-font-family;
+	font-size: $h1-font-size;
+	color: $h1-font-color;
+	font-weight: $h1-font-weight;
+}
+
+h2{
+	font-family: $h2-font-family;
+	font-size: $h2-font-size;
+	color: $h2-font-color;
+	font-weight: $h2-font-weight;
+	margin:30px 0 20px 10px;
+}
+
+h3{
+	font-family: $h3-font-family;
+	font-size: $h3-font-size;
+	color: $h3-font-color;
+	font-weight: $h3-font-weight;
+}
+
+h4{
+	font-family: $h4-font-family;
+	font-size: $h4-font-size;
+	color: $h4-font-color;
+	font-weight: $h4-font-weight;
+}
+
+h5{
+	font-family: $h5-font-family;
+	font-size: $h5-font-size;
+	color: $h5-font-color;
+	font-weight: $h5-font-weight;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+h6{
+	font-family: $h6-font-family;
+	font-size: $h6-font-size;
+	color: $h6-font-color;
+	font-weight: $h6-font-weight;
+}
+
+a{
+	font-family: $a-font-family;
+	font-size: $a-font-size;
+	color: $a-font-color;
+	@include transition($a-transition);
+	text-decoration:none;
+
+	&:hover{
+		color: $a-hover-color;
+	}
+
+	&:visited{
+		color: $a-visited-color;
+	}
+
+	&:active{
+		color: $a-active-color;
+	}
+}

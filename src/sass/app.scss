@@ -1,0 +1,14 @@
+// Imports for base files
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/functions';
+@import 'base/mixins';
+@import 'base/globals';
+
+// Imports for page components
+@import 'components/header';
+@import 'components/jumbotron';
+@import 'components/search-box';
+@import 'components/slider';
+@import 'components/text-block';
+@import 'components/footer';

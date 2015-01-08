@@ -1,0 +1,25 @@
+{
+  "name": "bones",
+  "description": "B2 Interactive Development Skeleton",
+  "version": "0.1.0",
+  "homepage": "http://www.b2interactive.com",
+  "author": {
+    "name": "B2 Interactive Development Team",
+    "url": "http://www.b2interactive.com/"
+  },
+  "bugs": {
+  	"email": "blake.wilhelm@b2interactive.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-imagemin": "~0.9.2",
+    "imagemin-webp": "latest",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-jade": "~0.13.0",
+    "grunt-newer": "latest"
+  }
+}

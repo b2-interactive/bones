@@ -1,0 +1,158 @@
+/*
+
+This is the variables SASS file where all of your variables should be stored. This is just a basic set up
+right now so if you find yourself having to create the same variables for projects over and over add them
+to the basic skeleton so that other may prosper from your awesomenss.
+
+Thank you,
+Blake "B-Weezy" Wilhelm
+B2 Interactive Development Team
+
+*/
+
+/////////////////////////////////////////////////////////////////////////////
+// MAIN STYLE VARIABLES                                                    //
+// These are the main variables that can make the basic changes needed,    //
+// such as color scheme, font scheme, main container width, etc. From      //
+// there you can make any other more precise changes on the variables      //
+// underneath.                                                             //
+/////////////////////////////////////////////////////////////////////////////
+
+$container-width: 100%;
+
+$grid-columns: 12;
+
+$primary-color: #009ddc;
+$primary-light-shade: #71cef5;
+$primary-dark-shade: #0066a4;
+
+$secondary-color: #ef6923;
+$secondary-light-shade: #ef6923;
+$secondary-dark-shade: #ef6923;
+
+$tertiary-color: #8fd400;
+$tertiary-light-shade: #8fd400;
+$tertiary-dark-shade: #8fd400;
+
+$primary-background-color: #fff;
+$secondary-background-color: #eaeff0;
+
+$base-font-size: 62.5%;
+$base-font-color: #51626f;
+$base-font-family: Arial, Verdana, sans-serif;
+$base-line-height: 0.9rem;
+
+$primary-font-family: Arial, Verdana, sans-serif;
+$secondary-font-family: Arial, Verdana, sans-serif;
+
+$base-button-border-radius: 10px;
+$base-button-shadow-location: 0 3px;
+$base-button-shadow-spread: 0;
+$base-button-padding: 5px 15px;
+
+
+/////////////////////////////////////////////////////////////////////////////
+// TEXT STYLE VARIABLES                                                    //
+// This is where you will modify any default text colors, sizes, and fonts //
+/////////////////////////////////////////////////////////////////////////////
+
+//////////////////////
+// Header Variables //
+//////////////////////
+
+$main-header-font: $primary-font-family;
+$main-header-color: $primary-color;
+$main-header-weight: 700;
+
+$sub-header-font: $secondary-font-family;
+$sub-header-color: $secondary-color;
+$sub-header-weight: 400;
+
+// H1 //
+$h1-font-size: 1.8rem;
+$h1-font-color: #FFF;
+$h1-font-family: $main-header-font;
+$h1-font-weight: $sub-header-weight;
+
+// H2 //
+$h2-font-size: 1.5rem;
+$h2-font-color: $main-header-color;
+$h2-font-family: $main-header-font;
+$h2-font-weight: $main-header-weight;
+
+// H3 //
+$h3-font-size: 1.4rem;
+$h3-font-color: $main-header-color;
+$h3-font-family: $main-header-font;
+$h3-font-weight: $main-header-weight;
+
+// H4 //
+$h4-font-size: 1rem;
+$h4-font-color: $sub-header-color;
+$h4-font-family: $sub-header-font;
+$h4-font-weight: $sub-header-weight;
+
+// H5 //
+$h5-font-size: 1.1rem;
+$h5-font-color: $base-font-color;
+$h5-font-family: $main-header-font;
+$h5-font-weight: $main-header-weight;
+
+// H6 //
+$h6-font-size: 0.67rem;
+$h6-font-color: $sub-header-color;
+$h6-font-family: $sub-header-font;
+$h6-font-weight: $sub-header-weight;
+
+
+////////////////////
+// Link Variables //
+////////////////////
+
+// Default Link //
+$a-font-family: $base-font-family;
+$a-font-color: #009ddc;
+$a-font-size: 1rem;
+$a-transition: color 0.3s ease;
+
+// Hover Link //
+$a-hover-color: #71cef5;
+
+// Visited Link //
+$a-visited-color: #009ddc;
+
+// Active Link //
+$a-active-color: #009ddc;
+
+
+//////////////////////
+// Button Variables //
+//////////////////////
+
+// Primary Button //
+$primary-button-background-color: $primary-color;
+$primary-button-text-color: #fff;
+$primary-button-border-radius: $base-button-border-radius;
+$primary-button-shadow-location: $base-button-shadow-location;
+$primary-button-shadow-spread: $base-button-shadow-spread;
+$primary-button-shadow-color: $primary-button-background-color - #222222;
+$primary-button-padding: $base-button-padding;
+
+// Secondary Button //
+$secondary-button-background-color: $secondary-color;
+$secondary-button-text-color: #fff;
+$secondary-button-border-radius: $base-button-border-radius;
+$secondary-button-shadow-location: $base-button-shadow-location;
+$secondary-button-shadow-spread: $base-button-shadow-spread;
+$secondary-button-shadow-color: $secondary-button-background-color - #222222;
+$secondary-button-padding: $base-button-padding;
+
+// Tertiary Button //
+$tertiary-button-background-color: $tertiary-color;
+$tertiary-button-text-color: #fff;
+$tertiary-button-border-radius: $base-button-border-radius;
+$tertiary-button-shadow-location: $base-button-shadow-location;
+$tertiary-button-shadow-spread: $base-button-shadow-spread;
+$tertiary-button-shadow-color: $tertiary-button-background-color - #222222;
+$tertiary-button-padding: $base-button-padding;
+

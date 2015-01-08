@@ -1,0 +1,37 @@
+h2 Installing on Mac Machines
+p To install on a Mac machine there are a few things you are going to need to install:
+ol
+	li 
+		p
+			| First thing that you will want to install is SASS. Since Ruby comes installed on Mac machines all you have to do this open up your Terminal and type:
+		code gem install -g sass
+		p
+			| This may take a minute or two but once it is done type:
+		code sass -v
+		p
+			| If this doesn't return an Error and you get a version number it is installed correctly.
+	li 
+		p
+			| Next thing that you will want to install is Node.js. To do this navigate to 
+			a(href="http://nodejs.org") http://nodejs.org
+			| and click the download button. Once the download is complete, run the application file.
+			| Go through the process and hit install. Once installed open up your Terminal and type:
+		code node -v
+		p
+			| If this doesn't return an error and you get a version number then Node is installed correctly.
+			| This will also install NPM which is nodes package manager and you will be using this to install
+			| a few more things.
+	li 
+		p
+			| We also need to make sure Git is installed on the machine by opening up Terminal and typing
+		code git
+		p
+			| If it is not installed already it will open up a prompt that will walk you through the process.
+	li 
+		p
+			| The last prerequisite is the grunt-cli and is very simple to install.
+			| All you have to do is open your Terminal and type:
+		code npm install -g grunt-cli
+		p
+			| Once it is done and you have no errors you are good to go.
+			| Now, move down to the section "Git Repository and Set Up".
